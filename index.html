@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/838e4cf686.js" crossorigin="anonymous"></script>
+    <title>Será que chove?</title>
+</head>
+
+<body>
+    <main>
+        <div class="header">
+            <h1>Será que chove?</h1>
+        </div>
+
+        <div class="container__form">
+            <form class="form">
+                <input type="text" class="form__input" placeholder="Insira uma cidade...">
+                <button id="form__button"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+
+        <div class="division__line"></div>
+
+        <!-- entra dinamicamente pelo js -->
+        <div class="container__result">
+            <h3 class="nome__cidade">são paulo</h2>
+            <h2 class="temp">72°</h3>
+            <div class="result__icon"><i class="fas fa-cloud-showers-heavy"></i></div>
+        </div>
+
+        <footer class="rodape">
+            <p>Será que chove? é um WebApp que se utiliza da API Open Weather Map</p>
+        </footer>
+
+    </main>
+<script src="/scripts/script.js"></script>
+</body>
+
+</html>
